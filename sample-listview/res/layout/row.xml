@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/test_id"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:background="#322345">
+    <se.emilsjolander.flipview.FlipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:flipview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/flip_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#425134"
+            flipview:orientation="horizontal"
+            tools:context=".MainActivity" >
+    </se.emilsjolander.flipview.FlipView>
+
+
+</LinearLayout>
